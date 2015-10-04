@@ -5,7 +5,8 @@ var getItem = uniqueRandomArray(gamesList);
 
 module.exports = {
 	allGames : gamesList,
-	random: random
+	random: random,
+	fromYear : fromYear
 }
 
 function random (n) {
@@ -20,4 +21,8 @@ function random (n) {
 		games.push(getItem());
 	}
 	return games;
+}
+
+function fromYear(year){
+	return gamesList.filter(function(asset){ return asset.released === year });
 }
