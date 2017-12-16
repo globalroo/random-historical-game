@@ -4,7 +4,9 @@
 
 __Usage__
 
-This psckage is bundled as a UMD,
+This package is bundled as a UMD,
+
+__Disclaimer__: This project is a sandbox for understanding build chains and is likely to change in crazy ways.
 
 ```js
 // Common JS
@@ -75,5 +77,3 @@ The games are stored in the following structure:
 ```
 
 __TODO__: Coverage reporting from mocha / istanbul and webpack.
-
-__Disclaimer__: This project is a sandbox for understanding build chains and is likely to change in crazy ways.
