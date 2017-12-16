@@ -1,4 +1,4 @@
-# random-historical-game [![Build Status](https://travis-ci.org/globalroo/random-historical-game.svg?branch=master)](https://travis-ci.org/globalroo/random-historical-game)[![Dependency Status](https://dependencyci.com/github/globalroo/random-historical-game/badge?v1)](https://dependencyci.com/github/globalroo/random-historical-game?v1)[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+# random-historical-game [![Build Status](https://travis-ci.org/globalroo/random-historical-game.svg?branch=master)](https://travis-ci.org/globalroo/random-historical-game)[![Dependency Status](https://dependencyci.com/github/globalroo/random-historical-game/badge)](https://dependencyci.com/github/globalroo/random-historical-game?v1)[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ### Installation
 
