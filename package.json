@@ -1,32 +1,49 @@
 {
-  "name": "random-historical-game",
-  "version": "1.2.0",
-  "description": "Get a random historical game",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "mocha src/index.test.js -w"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/globalroo/random-historical-game.git"
-  },
-  "keywords": [
-    "random",
-    "historical",
-    "game",
-    "object"
-  ],
-  "author": "Andrew Davies <globalroo@hotmail.com> (http://github.com/globalroo)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/globalroo/random-historical-game/issues"
-  },
-  "homepage": "https://github.com/globalroo/random-historical-game",
-  "dependencies": {
-    "unique-random-array": "1.0.0"
-  },
-  "devDependencies": {
-    "chai": "3.3.0",
-    "mocha": "2.3.3"
-  }
+	"name": "random-historical-game",
+	"version": "2.0.0",
+	"description": "Get a random historical game",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "webpack -p && serve -s dist",
+		"test": "mocha -r ts-node/register test/**/*.test.ts -w",
+		"testCI": "mocha -r ts-node/register test/**/*.test.ts",
+		"build": "webpack -p",
+		"clean": "rimraf dist",
+		"package": "yarn run clean && rimraf node_modules"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/globalroo/random-historical-game.git"
+	},
+	"keywords": [
+		"random",
+		"historical",
+		"game",
+		"object"
+	],
+	"author": "Andrew Davies <globalroo@hotmail.com> (http://github.com/globalroo)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/globalroo/random-historical-game/issues"
+	},
+	"homepage": "https://github.com/globalroo/random-historical-game",
+	"dependencies": {
+		"unique-random-array": "1.0.0"
+	},
+	"devDependencies": {
+		"@types/chai": "4.0.10",
+		"@types/mocha": "2.2.44",
+		"@types/node": "8.5.1",
+		"awesome-typescript-loader": "3.4.1",
+		"chai": "4.1.2",
+		"copy-webpack-plugin": "4.3.0",
+		"eslint": "4.13.1",
+		"mocha": "4.0.1",
+		"prettier": "1.9.2",
+		"rimraf": "2.6.2",
+		"serve": "6.4.1",
+		"ts-node": "4.0.2",
+		"typescript": "2.6.2",
+		"webpack": "3.10.0"
+	}
 }
